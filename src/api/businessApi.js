@@ -12,7 +12,7 @@ export const searchBusinesses = async (queries, coordinates) => {
     data: {
       queries: queries,
       limit: 1000,
-      region: 'us',
+      region: 'globe',
       language: 'en',
       coordinates: coordinates,
       zoom: 13,
